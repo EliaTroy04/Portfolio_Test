@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nachhaltiges Produkt</title>
+    <style>
+        /* Reset der Standard-Stile */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Allgemeine Stile */
+        body {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        
+        /* Mobile Stile */
+        @media (max-width: 567px) {
+            /* Header */
+            .header {
+                text-align: center;
+            }
+            
+            /* Produkt-Box */
+            .product-box {
+                padding: 20px;
+            }
+            
+            /* Produktbild */
+            .product-image {
+                max-width: 100%;
+            }
+            
+            /* Beschreibung */
+            .description {
+                margin-top: 20px;
+                text-align: justify;
+            }
+            
+            /* CTA-Button */
+            .cta-button {
+                display: block;
+                margin: 20px auto 0;
+            }
+            
+            /* Footer */
+            .footer {
+                text-align: center;
+            }
+        }
+        
+        /* Tablet- und Desktop-Stile */
+        @media (min-width: 568px) {
+            /* Produkt-Box */
+            .product-box {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                padding: 50px;
+            }
+            
+            /* Produktbild */
+            .product-image {
+                max-width: 45%;
+                margin-right: 50px;
+            }
+            
+            /* Beschreibung */
+            .description {
+                flex: 1;
+                margin-top: 0;
+                text-align: justify;
+            }
+            
+            /* CTA-Button */
+            .cta-button {
+                margin-top: 50px;
+            }
+        }
+        
+        /* Desktop-Stile */
+        @media (min-width: 992px) {
+            /* Allgemeine Stile */
+            body {
+                font-size: 18px;
+            }
+            
+            /* Header */
+            .header {
+                padding: 50px;
+                text-align: left;
+            }
+            
+            /* Produkt-Box */
+            .product-box {
+                padding: 100px;
+            }
+            
+            /* Produktbild */
+            .product-image {
+                max-width: 60%;
+                margin-right: 100px;
+            }
+            
+            /* Beschreibung */
+            .description {
+                text-align: justify;
+            }
+        }
+        
+        /* SVG-Styles */
+        svg {
+            fill: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>Nachhaltiges Produkt</h1>
+    </header>
+    
+    <!-- Produkt-Box -->
+    <div class="product-box">
+        <div class="product-image">
+            <svg viewBox="0 0 100 100" width="100%" height="auto">
+                <rect x="10" y="10" width="80" height="80" rx="10" ry="10" />
+            </svg>
+        </div>
+        <div class="description">
+            <h2>Produktbeschreibung</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate enim non duis lorem dignissim, ac malesuada velit imperdiet. Donec eget sem quis risus auctor convallis eget vel nunc. Fusce laoreet risus ut risus tristique, sit amet vestibulum felis vulputate.</p>
+        
+        <ul>
+            <li>Nachhaltiges Material</li>
+            <li>Langlebig und robust</li>
+            <li>Recycelbar</li>
+        </ul>
+        
+        <p>Jetzt bestellen und etwas Gutes für die Umwelt tun!</p>
+        
+        <a href="#" class="cta-button">Jetzt kaufen</a>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>&copy; 2023 Nachhaltiges Produkt GmbH</p>
+</footer>
+</body>
+</html>
